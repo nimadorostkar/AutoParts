@@ -67,6 +67,32 @@
             </div>
             <!-- End Main-Slider -->
 
+
+
+            <!-- Start Mini-Slider -->
+            <div class="row mb-5">
+
+                <div class="col-xl-4 col-lg-12 col-12 order-1 order-lg-2">
+                    <a class="main-slider-slide" href="#">
+                        <img src="{% static 'images/main-slider/m3.jpg' %}" style="width:100%;height:auto;border-radius:5px;">
+                    </a>
+                </div>
+
+                <div class="col-xl-4 col-lg-12 col-12 order-1 order-lg-2">
+                    <a class="main-slider-slide" href="#">
+                        <img src="{% static 'images/main-slider/m2.jpg' %}" style="width:100%;height:auto;border-radius:5px;">
+                    </a>
+                </div>
+
+                <div class="col-xl-4 col-lg-12 col-12 order-1 order-lg-2">
+                    <a class="main-slider-slide" href="#">
+                        <img src="{% static 'images/main-slider/m1.jpg' %}" style="width:100%;height:auto;border-radius:5px;">
+                    </a>
+                </div>
+
+            </div>
+            <!-- End Mini-Slider -->
+
             <!-- Start Product-Slider -->
             <div class="row">
                 <div class="col-xl-10 col-lg-12">
@@ -153,8 +179,6 @@
 
 
             <!-- Start Category-Section -->
-            <!--
-
             <div class="row mt-3 mb-5">
                 <div class="col-12">
                     <div class="category-section dt-sn dt-sl">
@@ -233,8 +257,6 @@
                     </div>
                 </div>
             </div>
-
-            -->
             <!-- End Category-Section -->
 
 
@@ -282,38 +304,48 @@
 
 
 
-            <!-- Start Main-Slider -->
+            <!-- Start Mini-Slider -->
             <div class="row mb-5">
 
                 <div class="col-xl-4 col-lg-12 col-12 order-1 order-lg-2">
-                    <section   class="main-slider carousel slide carousel-fade card hidden-sm" data-ride="carousel">
-                        <div class="carousel-inner">
-                            {% for slide in sliders %}
-                                <div class="carousel-item {{ forloop.first|yesno:'active,' }}">
-                                    <a class="main-slider-slide" href="{{ banner_left.link }}"
-                                       style="background-image: url({{ banner_right.image.url }}) ;height: 329px ">
-                                    </a>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </section>
+                    <a class="main-slider-slide" href="#">
+                        <img src="{% static 'images/main-slider/m4.jpg' %}" style="width:100%;height:auto;border-radius:5px;">
+                    </a>
                 </div>
 
-                <div class="col-xl-8 col-lg-12 col-12 order-1 order-lg-2">
-                    <section   class="main-slider carousel slide carousel-fade card hidden-sm" data-ride="carousel">
-                        <div class="carousel-inner">
-                            {% for slide in sliders %}
-                                <div class="carousel-item {{ forloop.first|yesno:'active,' }}">
-                                    <a class="main-slider-slide" href="{{ banner_left.link }}"
-                                       style="background-image: url({{ banner_left.image.url }}) ;height: 329px ">
-                                    </a>
-                                </div>
-                            {% endfor %}
-                        </div>
-                    </section>
+                <div class="col-xl-4 col-lg-12 col-12 order-1 order-lg-2">
+                    <a class="main-slider-slide" href="#">
+                        <img src="{% static 'images/main-slider/m5.jpg' %}" style="width:100%;height:auto;border-radius:5px;">
+                    </a>
                 </div>
+
+                <div class="col-xl-4 col-lg-12 col-12 order-1 order-lg-2">
+                    <a class="main-slider-slide" href="#">
+                        <img src="{% static 'images/main-slider/m6.jpg' %}" style="width:100%;height:auto;border-radius:5px;">
+                    </a>
+                </div>
+
             </div>
-            <!-- End Main-Slider -->
+            <!-- End Mini-Slider -->
+
+
+            <!-- Start Mini-Slider -->
+            <div class="row mb-5">
+
+                <div class="col-xl-6 col-lg-12 col-12 order-1 order-lg-2">
+                    <a class="main-slider-slide" href="#">
+                        <img src="{% static 'images/main-slider/m7.jpg' %}" style="width:100%;height:auto;border-radius:5px;">
+                    </a>
+                </div>
+
+                <div class="col-xl-6 col-lg-12 col-12 order-1 order-lg-2">
+                    <a class="main-slider-slide" href="#">
+                        <img src="{% static 'images/main-slider/m8.jpg' %}" style="width:100%;height:auto;border-radius:5px;">
+                    </a>
+                </div>
+
+            </div>
+            <!-- End Mini-Slider -->
 
 
 
@@ -365,6 +397,8 @@
             </section>
             <!-- End Feature-Product -->
 
+
+
             <!-- Start Brand-Slider -->
             <section class="slider-section dt-sl mb-5">
                 <div class="row">
@@ -389,6 +423,7 @@
                 </div>
             </section>
             <!-- End Brand-Slider -->
+
 
         </div>
     </main>

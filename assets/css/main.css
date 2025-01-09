@@ -462,7 +462,7 @@ header.main-header .search-area form.search button {
     top: 0;
     bottom: 0;
     border-radius: 7px 0 0 7px;
-    background: #f7858d;
+    background: #ff954a;
     border: 0;
     cursor: pointer;
     outline: none;
@@ -550,7 +550,7 @@ header.main-header .nav-link span.label-dropdown {
 }
 
 header.main-header .nav-link span.count {
-    background-color: #f7858d;
+    background-color: #ff954a;
     color: #fff;
     display: inline-block;
     width: 20px;

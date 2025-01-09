@@ -408,11 +408,9 @@
                             {% for brand in all_barand %}
                                 {% if brand.image %}
                                     <div class="item">
-                                        <a href="{{ brand.get_absolute_url }}"><img src="/media/{{ brand.image }}"
-                                                                                    class="img-fluid"
-                                                                                    alt="{{ brand.title }}"
-                                                                                    style="height: 131px; width: 131px"></a>
-
+                                        <a href="{{ brand.get_absolute_url }}">
+                                            <img src="/media/{{ brand.image }}" class="img-fluid" alt="{{ brand.title }}" style="width:100%;height:120px;">
+                                        </a>
                                     </div>
                                 {% endif %}
                             {% endfor %}

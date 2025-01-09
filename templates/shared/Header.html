@@ -19,6 +19,7 @@
                     <div class="logo-area float-right">
                         <a href="/">
                             <img src="{{ site_info.logo.url }}" alt="Logo" height="50">
+                            <span style="font-size:16px;color:#df6006e8"> <b> {{ site_info.title }} </b> </span>
                         </a>
                     </div>
                 </div>
@@ -41,7 +42,7 @@
                     <div class="search-area dt-sl">
                         <form action="/product_list/search" class="search" method="get">
                             <input id="query" type="text" value="{{ request.GET.q }}" name='q'
-                                   placeholder="نام کالا، برند و یا دسته مورد نظر خود را جستجو کنید…">
+                                   placeholder="نوع خودرو یا دسته محصول را مشخص کنید...">
                             <button type="submit"><img src="{% static 'images/theme/search.png' %}" alt=""></button>
                             <button class="close-search-result" type="button"><i class="mdi mdi-close"></i></button>
                             {#                            <div class="search-result" >#}
@@ -53,11 +54,11 @@
                     </div>
                 </div>
                 <div class="col-md-4 col-5 topbar-left" style="text-align:left;">
-                    <a href="#"> <i style="font-size:25px;"> &nbsp; &nbsp;  </i> </a>
+                    <a href="#"> <i style="font-size:14px;color:grey"> 021-44234500 </i> </a>
                     &nbsp;
-                    <a href="{{ site_info.instagram }}"> <i class="fa fa-instagram" style="font-size:26px;color:#f7858d"></i></a>
+                    <a href="{{ site_info.instagram }}"> <i class="fa fa-instagram" style="font-size:24px;color:#ff954a"></i></a>
                      &nbsp;
-                    <a href="{{ site_info.telegram }}"> <i class="fa fa-telegram" style="font-size:24px;color:#f7858d"></i></a>
+                    <a href="{{ site_info.telegram }}"> <i class="fa fa-telegram" style="font-size:22px;color:#ff954a"></i></a>
                 </div>
             </div>
         </div>
